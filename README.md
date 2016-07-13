@@ -36,7 +36,4 @@ Probably with `debug_mode` and/or `no_update` on.
 * In your Heroku dashboard, turn the worker process on.
 
 ## That's it!
-* `heroku logs -t` to see what it's doing
- ##Signature base string GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2F&oauth_consumer_key%3DhhHWNvo0yLibWFjt8CrL9Qz2z%26oauth_nonce%3D2197aeea6da5c7851e780bbe07eae632%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1467829934%26oauth_token%3D750050036638162944-J501UubvPCgHoNXwW1cFIeD6GSmbj6E%26oauth_version%3D1.0
-Authorization header Authorization: OAuth oauth_consumer_key="hhHWNvo0yLibWFjt8CrL9Qz2z", oauth_nonce="2197aeea6da5c7851e780bbe07eae632", oauth_signature="efI3VSP7mRe6CX7mBsEDXJjCvEA%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1467829934", oauth_token="750050036638162944-J501UubvPCgHoNXwW1cFIeD6GSmbj6E", oauth_version="1.0"
-cURL command curl --get 'https://api.twitter.com/1.1/' --header 'Authorization: OAuth oauth_consumer_key="hhHWNvo0yLibWFjt8CrL9Qz2z", oauth_nonce="2197aeea6da5c7851e780bbe07eae632", oauth_signature="efI3VSP7mRe6CX7mBsEDXJjCvEA%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1467829934", oauth_token="750050036638162944-J501UubvPCgHoNXwW1cFIeD6GSmbj6E", oauth_version="1.0"' --v
+* `heroku logs -t` 
